@@ -1,0 +1,128 @@
+#box2_pic{
+    border:none;
+    width:100%;
+    height:500px;
+}
+
+#special_zone{
+    border:1px solid white;
+    width:100%;
+    height:250px;
+    padding:0px;
+}
+
+#special_zone img{
+    margin-top:50px;
+    margin-left:30px;
+    padding:0px;
+    border:2px solid pink;
+    /*400px*/
+    /*width:27%;*/
+    width:400px;
+    height:200px;
+
+}
+
+#new_arrival{
+    margin-top:20px;
+    border:1px solid white;
+    width:100%;
+    height:400px;
+}
+
+#new_arrival img{
+    margin-top:30px;
+    margin-left:40px;
+    border:2px solid #ccc;
+    width:280px;
+    height:280px;
+}
+
+#desc_m{
+    border:0.5px solid white;
+    width:100%;
+    height:120px;
+}
+
+#desc_1,#desc_2,#desc_3,#desc_4{
+    border:0.5px solid white;
+    width:280px;
+    height:120px;
+    margin-top:0px;
+    margin-left:50px;
+    float:left;
+}
+#top7{
+    margin-top:40px;
+    overflow:hidden;
+    border:1px solid white;
+    width:100%;
+    height:700px;
+}
+
+/* top1 top7_6 나머지 2위부터 7위까지*/
+#top7_1{
+    border:2px solid #ccc;
+    margin-left:150px;
+    width:450px;
+    height:450px;
+    float:left;
+}
+
+#top7_6{
+    border:1px solid #ccc;
+    width:220px;
+    height:210px;
+    margin-left:30px;
+    float:left;
+}
+
+#store{
+    border:none;
+    width:100%;
+    height:420px;
+    margin-top:20px;
+}
+
+#store_box{
+    border:0.5px solid #fccfd8;
+    width:405px;
+    height:270px;
+    margin-top:30px;
+    margin-left:20px;
+    background-color: #fccfd8;
+    float:left;
+}
+
+#store_box img{
+    border:none;
+    widows: 405px;
+    height:270px;
+}
+
+#store_box h4{
+    margin:5px; text-align:center;
+}
+
+#store_box h5{
+    margin: 0px; 
+    text-align: center; 
+}
+
+#store_box button{
+    width:67px;
+    height:25px;
+    border:none;
+    background:#0066FF;
+    color:white;
+    text-align: center;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor:pointer; 
+    margin-left:40%;
+    margin-top:8px;
+}
+
+#store_box button:hover{
+    background:#FBC5D9;
+}

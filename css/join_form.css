@@ -1,0 +1,28 @@
+#join_box{
+    width:100%;
+    border: none;
+    height:900px;
+
+}
+table{
+    border-top:1px solid #ccc;
+    border-bottom:1px solid #ccc;
+    width:80%;
+
+    margin-left: 10%;
+    font-weight: lighter;
+    font-size:14px;
+}
+
+table tr{
+    width: 100%;
+    height:50px;
+}
+
+#basic_table table tr td{
+    border-bottom: 1px solid #ccc;
+}
+#basic_table table tr td input{
+    height:20px; 
+    margin-left:2%;
+}

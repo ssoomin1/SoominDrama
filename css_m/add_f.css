@@ -1,0 +1,48 @@
+#login_box{
+    border:none;
+    width:49%;
+    margin-left:25%;
+    margin-top:2%;
+    height:600px;
+    }
+#add_box{
+    border:none;
+    width:90%;
+    height:450px;
+    margin-left:5%;
+}
+#add_table{
+    border:1px solid pink;
+}
+
+table{
+    border-top:1px solid #ccc;
+    width:80%;
+
+    margin-left: 10%;
+    font-weight: lighter;
+    font-size:14px;
+}
+
+table tr{
+    width: 100%;
+    height:50px;
+}
+
+#add_box table tr td{
+    border-bottom: 1px solid #ccc;
+}
+#add_box table tr td input{
+    height:20px; 
+    width:80%;
+    margin-left:2%;
+}
+
+#add_box button{
+width: 20%; 
+height:7.8%; 
+margin-left:24%;
+margin-top:3%;
+border-radius: 2px;
+cursor:pointer;
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>2209신수민</title>
+    </head>
+    <body>
+        <h2>미림마이스터고 채용설명회 참석</h2>
+        <form method="post" action="2209join.php">
+            <table>
+                <tr>
+                    <td>회사명</td><br>
+                    <td><input type="text" name="company_name" placeholder="회사명"></td>
+                </tr>
+                <tr>
+                    <td>관심(복수선택가능)</td>
+                    <td> <input type="checkbox" name="interest" value="SW"> S/W분야
+                        <input type="checkbox" name="interest" value="Design"> Design분야
+                    </td>
+                </tr>
+                <tr>
+                    <td>현장면접</td>
+                    <td> <input type="radio" name="meet" value="Y"> 실시
+                        <input type="radio" name="meet" value="N"> 미실시
+                    </td>
+                </tr>
+                <tr>
+                    <td>참석인원</td>
+                    <td><input type="text" name="count"> </td>
+                </tr>
+                <tr>
+                    <td>대표참석자 성함</td>
+                    <td><input type="text" name="name"> </td>
+                </tr>
+                <tr>
+                    <td>직책</td>
+                    <td><input type="text" name="degree"> </td>
+                </tr>
+                <tr>
+                    <td>전화번호</td>
+                    <td><input type="text" name="tel"> </td>
+                </tr>
+                <tr>
+                    <td>이메일</td>
+                    <td><input type="email" name="email"> </td>
+                </tr>
+            </table>
+            <button type="submit">신청하기</button>
+        </form>
+    </body>
+</html>
